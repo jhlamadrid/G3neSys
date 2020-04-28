@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ext:UBLExtensions>
+<ext:UBLExtension><ext:ExtensionContent>
+<sac:AdditionalInformation><sac:AdditionalMonetaryTotal>
+<cbc:ID>1001</cbc:ID><cbc:PayableAmount currencyID="PEN">162</cbc:PayableAmount>
+</sac:AdditionalMonetaryTotal><sac:AdditionalMonetaryTotal>
+<cbc:ID>1003</cbc:ID>
+<cbc:PayableAmount currencyID="PEN">0</cbc:PayableAmount>
+</sac:AdditionalMonetaryTotal>
+<sac:AdditionalMonetaryTotal>
+<cbc:ID>1004</cbc:ID>
+<cbc:PayableAmount currencyID="PEN">0</cbc:PayableAmount>
+</sac:AdditionalMonetaryTotal>
+<sac:AdditionalProperty>
+<cbc:ID>1000</cbc:ID><cbc:Value>CIENTO NOVENTA Y UNO Y 16/100 SOLES</cbc:Value>
+</sac:AdditionalProperty></sac:AdditionalInformation>
+</ext:ExtensionContent>
+</ext:UBLExtension>
+<ext:UBLExtension>
+<ext:ExtensionContent>
+<ds:Signature Id="B210-000372">  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>  <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>  <ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>BAIwcLpbOFOgQdaw44AsXNcAmL8=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>dBiEeIz0CKsB14uNDfhj1eQxT8cXYF+9cVnqWWHyG0QLxvqFHZbWiPxI4GDH/Oqnn8+WhufLvmtHMJQCB2rNxegz8UE8kgsvBDprwHlUA6C37pXeVw52gmiiC66+zEgdWqT8RZ4YUnecpcHccRTszxcYb9blP5+wwaWieamY9m8TCd1FmqaLKQkXhejEL3IhJQvYeU1pYJStpbyi2B3B9q+zS0gDSN661u6AbUiOleoTAxa220sJ1a+DRp4xTvitKt6d8a0U5n26kqIvBrO4Ybpa12QzgcAl/tKfxTzYuAnXdXWzVzTQIUcx3Nb0hzNQF9jvEafrJQDtmgQBe8GytA==</ds:SignatureValue>  <ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFzTCCBLWgAwIBAgIKFd3N1wAAAAA16TANBgkqhkiG9w0BAQUFADCBjjELMAkGA1UEBhMCQ0gxEDAOBgNVBAoTB1dJU2VLZXkxIjAgBgNVBAsTGUNvcHlyaWdodCAyMDExIFdJU2VLZXkgU0ExFjAUBgNVBAsTDUludGVybmF0aW9uYWwxMTAvBgNVBAMTKFdJU2VLZXkgQ2VydGlmeUlEIEFkdmFuY2VkIFNlcnZpY2VzIENBIDIwHhcNMTYwNDE5MTYyMTUyWhcNMTkwNDE5MTYyMTUyWjCB4TELMAkGA1UEBhMCUEUxFDASBgNVBAcTC0xBIExJQkVSVEFEMRUwEwYDVQQKEwxTRURBTElCIFMuQS4xFDASBgNVBAsTCzIwMTMxOTExMzEwMREwDwYDVQQLEwg0MjU1MDM0OTElMCMGA1UECxMcSWRlbnRpZGFkIHZhbGlkYWRhIHBvciBHUkFNRDEtMCsGA1UEAxMkUkVORUUgTFVDSUEgREUgRkFUSU1BIFBFTEFFWiBSQU1JUkVaMSYwJAYJKoZIhvcNAQkBFhdsLnBlbGFlekBzZWRhbGliLmNvbS5wZTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKa4pu4QT6iUZHAVY0QoA6POYPuZnUe9xn/siwHg98N0+aq4qLyrebEuKE3hb4VVFgNvdnfUyyGuHQDnULWq8MFwUBiMAfrDpmdx2CT5WMWU8J6/NkBJgthLB5zoT6PWyK8HIsfJUc2bcKfv9XO3dUAoDGfz6W150bVZ5z2+gk5tCriqM4Ifqb27TxpQemZEb8vu9rCyA9m0rFKY+fcFRBHmlSRP4u9kxnNhWQkWqD8T1gHxr4HAl4HlgehRDZcOqyURI2qkwM1VY/qVs6+yQLvc/XaSAHBH3Y9ldbka8DWVfr6TqHxm5AJLgd0KP8YEsTivOZMRnVt17xadfPry1rUCAwEAAaOCAdYwggHSMB0GA1UdDgQWBBRkV636WggBLuUnUdGoVug+TVBr8jAOBgNVHQ8BAf8EBAMCBPAwHwYDVR0jBBgwFoAU1y8v8wnxViFTHedMLkhEStqG/ZgwPAYDVR0fBDUwMzAxoC+gLYYraHR0cDovL3B1YmxpYy53aXNla2V5LmNvbS9jcmwvd2NpZGFzY2EyLmNybDBtBggrBgEFBQcBAQRhMF8wNwYIKwYBBQUHMAKGK2h0dHA6Ly9wdWJsaWMud2lzZWtleS5jb20vY3J0L3djaWRhc2NhMi5jcnQwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLndpc2VrZXkuY29tLzA1BgNVHSUELjAsBggrBgEFBQcDAgYKKwYBBAGCNwoDDAYIKwYBBQUHAwQGCisGAQQBgjcUAgIwQwYJKwYBBAGCNxUKBDYwNDAKBggrBgEFBQcDAjAMBgorBgEEAYI3CgMMMAoGCCsGAQUFBwMEMAwGCisGAQQBgjcUAgIwRAYJKoZIhvcNAQkPBDcwNTAOBggqhkiG9w0DAgICAIAwDgYIKoZIhvcNAwQCAgCAMAcGBSsOAwIHMAoGCCqGSIb3DQMHMBEGCWCGSAGG+EIBAQQEAwIAoDANBgkqhkiG9w0BAQUFAAOCAQEABY2PheiLmitf0YIMeF/kPL/KxgM2Zx/Kar3rmCEWI/Ezp0MM+rD+EJJPM7QG3Jxn+lccma9wnOEnSbNhr5poXC3Pm9Pk+qGOF5yKCSuCtXO2frnL9RS0cOsfqw3Cnevnjz0Gk/OhCEZYvMekFu3ZBKk8sLVjhyd1o5zB4SlSbD483nqhe/G1iXt/2eMi4eD9d3ya885qCF4ZpC02YO6KUxn6aNvbH0wJElwUYeBjGnaWGfO1ZgjU4PCbFuTEUjtjfdGNMDUC7pv9XFT1lOQbiJP/Ou2LFoNCzfg/qcIgKxAa+HWR0LAMiCuRE5JvwvvmCCuQ4RdPsrSSRH53N1/zTQ==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+</ext:UBLExtension>
+</ext:UBLExtensions>
+<cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+<cbc:CustomizationID>1.0</cbc:CustomizationID><cbc:ID>B210-000372</cbc:ID>
+<cbc:IssueDate>2018-04-17</cbc:IssueDate>
+<cbc:InvoiceTypeCode>03</cbc:InvoiceTypeCode>
+<cbc:DocumentCurrencyCode>PEN</cbc:DocumentCurrencyCode>
+<cac:Signature>
+<cbc:ID>SB210-000372</cbc:ID><cac:SignatoryParty>
+<cac:PartyIdentification><cbc:ID>20131911310</cbc:ID>
+</cac:PartyIdentification>
+<cac:PartyName><cbc:Name>SEDALIB S.A.</cbc:Name></cac:PartyName>
+</cac:SignatoryParty>
+<cac:DigitalSignatureAttachment>
+<cac:ExternalReference><cbc:URI>#SB210-000372</cbc:URI></cac:ExternalReference>
+</cac:DigitalSignatureAttachment>
+</cac:Signature><cac:AccountingSupplierParty>
+<cbc:CustomerAssignedAccountID>20131911310</cbc:CustomerAssignedAccountID>
+<cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+<cac:Party>
+<cac:PartyName><cbc:Name>SEDALIB S.A.</cbc:Name></cac:PartyName>
+<cac:PostalAddress>
+<cbc:ID>130101</cbc:ID>
+<cbc:StreetName>AV. FEDERICO VILLAREAL 1300</cbc:StreetName>
+<cbc:CitySubdivisionName>URB. SEMI RUSTICA EL BOSQUE</cbc:CitySubdivisionName>
+<cbc:CityName>La Libertad</cbc:CityName>
+<cbc:CountrySubentity>Trujillo</cbc:CountrySubentity>
+<cbc:District>Trujillo</cbc:District>
+<cac:Country>
+<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+</cac:Country>
+</cac:PostalAddress>
+<cac:PartyLegalEntity><cbc:RegistrationName>SEDALIB S.A.</cbc:RegistrationName></cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingSupplierParty><cac:AccountingCustomerParty>
+<cbc:CustomerAssignedAccountID>70029702</cbc:CustomerAssignedAccountID>
+<cbc:AdditionalAccountID>1</cbc:AdditionalAccountID>
+<cac:Party>
+<cac:PartyLegalEntity><cbc:RegistrationName>ROJAS  JAMES EDWIN JOEL</cbc:RegistrationName></cac:PartyLegalEntity>
+</cac:Party>
+</cac:AccountingCustomerParty><cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">29.16</cbc:TaxAmount>
+<cac:TaxSubtotal>
+<cbc:TaxAmount currencyID="PEN">29.16</cbc:TaxAmount>
+<cac:TaxCategory>
+<cac:TaxScheme>
+<cbc:ID>1000</cbc:ID><cbc:Name>IGV</cbc:Name><cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal><cac:LegalMonetaryTotal><cbc:PayableAmount currencyID="PEN">191.16</cbc:PayableAmount>
+</cac:LegalMonetaryTotal><cac:InvoiceLine>
+<cbc:ID>1</cbc:ID>
+<cbc:InvoicedQuantity unitCode="NIU">1</cbc:InvoicedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">162</cbc:LineExtensionAmount>
+<cac:PricingReference><cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">191.16</cbc:PriceAmount>
+<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+</cac:AlternativeConditionPrice>
+</cac:PricingReference>
+<cac:TaxTotal><cbc:TaxAmount currencyID="PEN">29.16</cbc:TaxAmount>
+<cac:TaxSubtotal><cbc:TaxAmount currencyID="PEN">29.16</cbc:TaxAmount>
+<cac:TaxCategory>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+<cac:TaxScheme><cbc:ID>1000</cbc:ID>
+<cbc:Name>IGV</cbc:Name>
+<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+</cac:TaxScheme>
+</cac:TaxCategory>
+</cac:TaxSubtotal>
+</cac:TaxTotal>
+<cac:Item><cbc:Description>REGULARIZACION SERVICIO AGUA</cbc:Description>
+<cac:SellersItemIdentification><cbc:ID>403</cbc:ID>
+</cac:SellersItemIdentification>
+</cac:Item><cac:Price><cbc:PriceAmount currencyID="PEN">162</cbc:PriceAmount></cac:Price>
+</cac:InvoiceLine></Invoice>

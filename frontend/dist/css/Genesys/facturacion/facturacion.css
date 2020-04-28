@@ -1,0 +1,37 @@
+.btn-total{
+    width: 100% !important;
+}
+.titulo{
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    text-align: left !important;
+}
+.well{
+    border: 1px solid #5ca6b7 !important;
+    background: #e6e6e6 !important;
+}
+.box_border{
+    border-bottom: 1px solid #d0d0d0;
+}
+.btn-blue-ligth{
+    background: #2e9ab3  !important;
+    color: #FFF;
+    text-decoration: none;
+    border: 1px solid #748ea9;
+}
+.btn-blue-ligth:hover{
+    background: #288aa0 !important;
+    color: #FFF !important;
+}
+.ajs-button.ajs-ok{
+    background: rgba(200,200,200,0) !important;
+    border: 1px solid rgba(41, 111, 183, 0.73) !important;
+    border-radius: 2px;
+}
+.center{
+    text-align: center;
+}
+.ListPersonUpdate>li{
+    text-decoration: none;
+    list-style: none;
+}

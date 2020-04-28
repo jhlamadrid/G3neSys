@@ -1,0 +1,82 @@
+.title_window{
+   font-family: 'Ubuntu';
+   font-size: 1.5em;
+   font-weight: bold;
+   line-height: 2.6 !important;
+   margin: 0px 10px 0px 20px;
+
+}
+.drop{
+	margin-top: 10px
+}
+.bordes{
+	border: none !important;
+	background: #3c8dbc !important;
+	color:#FFF;
+}
+.borde_head{
+	border-bottom: 1px solid rgba(167, 167, 167, 0.36)
+}
+.divider{
+	border-bottom: 1px solid rgba(167, 167, 167, 0.36) !important
+}
+.title_label{
+	background: #3c8dbc !important;
+	color:#FFF;
+	border: none !important
+}
+.center{
+	text-align: center;
+}
+.derecha{
+	text-align: right;
+}
+#imprimir_rangos,
+#imprimir_pagos{
+	color: #000 !important;
+	cursor: pointer;
+}
+
+#imprimir_pagos:hover, #imprimir_rangos:hover{
+	background: #00a65a !important;
+	color: #FFF !important;
+}
+.head_green{
+	background: #00a65a;
+	border-radius: 5px 5px 0px 0px;
+	color: #FFF
+}
+.titulo_modal{
+	font-family:'Ubuntu' !important
+}
+.cuadro_dialogo{
+	margin-bottom: 5px !important
+}
+.dialogo_titulo{
+	font-family:'Ubuntu';
+	margin: 0
+}
+.label_input{
+	margin-top: 5px !important;
+}
+.contenido_modal{
+	border-radius: 5px !important
+}
+.cuerpo_scroll{
+	height: 440px;
+	overflow-y: auto
+}
+.borde_footer{
+	border-top: 1px solid rgba(167, 167, 167, 0.36)
+}
+.hover_yellow{
+	color : #000 !important;
+	cursor: pointer;
+}
+.hover_yellow:hover{
+	background: #00a65a !important;
+	color: #FFF !important;
+}
+.bg_color{
+	background: #e5f1e0 !important
+}

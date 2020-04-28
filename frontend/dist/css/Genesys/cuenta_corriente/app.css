@@ -1,0 +1,35 @@
+#clientes tr{ cursor: pointer; }
+.btn:hover{ color: #f2eaea !important; }
+#ampliar_plazo:hover{color:#000 !important;}
+.cursor {cursor: pointer;color: #000 !important;}
+.titulo_box{font-family:'Ubuntu';font-weight: bold;line-height: 2 !important;}
+.borde_box{ border-bottom: 1px solid #dadada !important;}
+#tipo_busqueda{ font-weight: bold;}
+.row_top{ margin-top: 5px;}
+.derecha {text-align: right;}
+.izquierda {text-align: left;}
+.center {text-align: center;}
+.sin_margen {margin: 0;}
+#recibos_pendientes_filter, #cambios_catastrales_cuerpo_filter, #lista_unidades_filter, #lista_recibos_filter,#ampliaciones_lista_filter,#notas_credito_filter,#lista_serie_90_91_filter,#lista_recibos_descontados_filter{text-align: right;}
+#recibos_pendientes_paginate, #cambios_catastrales_cuerpo_paginate, #lista_unidades_paginate,#lista_recibos_paginate,#ampliaciones_lista_paginate,#notas_credito_paginate,#lista_serie_90_91_paginate,#clientes_paginate,#lista_recibos_descontados_paginate{text-align: right;}
+.head_green{ background: #00a65a;border-radius: 5px 5px 0px 0px;color: #FFF;}
+.titulo_modal{font-family:'Ubuntu' !important;}
+.cuadro_dialogo{margin-bottom: 5px !important;}
+.dialogo_titulo{font-family:'Ubuntu';margin: 0;}
+.label_input{ margin-top: 5px !important;}
+.title_label{background: #3c8dbc !important;color:#FFF;border: none !important;}
+.title_label1{ background: #00a65a !important; color:#FFF; border: none !important;}
+#fecha_plazo, #glosa_plazo, #vencimiento_recibo, #emision_recibo, #numero_recibo{font-weight: bold;text-align:right;}
+.contenido_modal{ border-radius: 5px !important;}
+.cuerpo_scroll{height: 440px;overflow-y: auto;}
+.borde_footer{border-top: 1px solid rgba(167, 167, 167, 0.36);}
+.hover_yellow{color : #000 !important;cursor: pointer;}
+.hover_green{color : #000 !important;cursor: pointer;}
+.hover_yellow:hover{background: #00a65a !important;color: #FFF !important;}
+.hover_green:hover{background: #d58512 !important;color: #FFF !important;}
+.border_nav{border:1px solid #949494 !important;}
+.btn-total{width:100% !important;}
+.bg_color{background: #e5f1e0 !important;}
+.bg_color1{background: #efe6d8  !important;}
+.divider{background-color: #d4cbcb !important;}
+.cancel{ background-color: #dd4b39 !important;}

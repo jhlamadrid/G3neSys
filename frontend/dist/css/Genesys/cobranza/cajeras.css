@@ -1,0 +1,38 @@
+.borde_box{
+	border-bottom: 1px solid #dadada !important;
+}
+.titulo_box{
+	font-family: 'Ubuntu';
+	font-size: 1.4em;
+   font-weight: bold;
+   line-height: 2 !important;
+}
+.derecha{
+	text-align: right;
+}
+.center{
+	text-align: center;
+}
+#cajeras_filter,
+#cajeras_paginate{
+	text-align: right;
+}
+.contenido_modal{
+	border-radius: 5px !important
+}
+.head_green{
+	background: #00a65a;
+	border-radius: 5px 5px 0px 0px;
+	color: #FFF
+}
+.titulo_modal{
+	font-family:'Ubuntu' !important
+}
+.borde_footer{
+	border-top: 1px solid rgba(167, 167, 167, 0.36)
+}
+.bordes{
+	border: none !important;
+	background: #3c8dbc !important;
+	color:#FFF;
+}

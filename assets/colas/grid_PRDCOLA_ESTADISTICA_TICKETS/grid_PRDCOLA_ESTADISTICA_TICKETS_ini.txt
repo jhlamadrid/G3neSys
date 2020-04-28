@@ -1,0 +1,7 @@
+index.php
+estadistico_colas
+grid_PRDCOLA_ESTADISTICA_TICKETS
+NAO
+cons
+grid_PRDCOLA_ESTADISTICA_TICKETS
+LigMd5
