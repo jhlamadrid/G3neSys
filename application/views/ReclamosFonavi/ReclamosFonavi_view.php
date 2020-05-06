@@ -572,7 +572,7 @@
 			$("#cuerpo_busqueda").append(`<div class='col-md-12'>
 											<div class="form-group">
 												<label>Suministro: </label>
-												<input type="text" style="border: 1px solid;" onkeypress="buscar_recibos(); return justNumbers(event);" class="form-control" id="suministro" required="">
+												<input type="text" style="border: 1px solid;"  return justNumbers(event);" class="form-control" id="suministro" required="">
 											</div>
 											</div>`);
 		} 
@@ -581,7 +581,7 @@
 			$("#cuerpo_busqueda").append(`<div class='col-md-12'>
 											<div class="form-group">
 												<label>Cod. Prestatario: </label>
-												<input type="text" style="border: 1px solid;" onkeypress="buscar_recibos(); return justNumbers(event);" class="form-control" id="prestatario" required="">
+												<input type="text" style="border: 1px solid;"  return justNumbers(event);" class="form-control" id="prestatario" required="">
 											</div>
 											</div>`);
 		}else {
@@ -596,7 +596,7 @@
           		<div class="col-md-6 col-sm-6" id="opt_srn_nro">
             		<div class="form-group">
               			<label >Número: </label>
-              			<input type="number" class="form-control" style="border: 1px solid;" onkeypress="buscar_recibos(); return justNumbers(event);" id="numero" required="">
+              			<input type="number" class="form-control" style="border: 1px solid;"  return justNumbers(event);" id="numero" required="">
             		</div>
           		</div>
         	</div>`);
